@@ -1,0 +1,19 @@
+.container_annouce{
+    max-width: 800px;
+    height: auto;
+    background: #35424a;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.button_1 .btn_1{
+    /* background: linear-gradient(to right, #35424a,#35424a); */
+    font-size: 19px;
+    /* padding: 12px 85px;
+    text-decoration: none;
+    color: #e8491d;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center; */
+}
