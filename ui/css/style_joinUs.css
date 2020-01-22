@@ -66,7 +66,7 @@ section{
 }
 .container_login .form_content button{
     display: block;
-    width:50%;
+    width:135%;
     padding:10px;
     box-shadow:border-box;
     margin-bottom: 20px;
@@ -75,3 +75,14 @@ section{
     background: #35424a;
     color:#fff;
 }
+/* .container_login .login_form button{
+    display: block;
+    width:50%;
+    padding:10px;
+    box-shadow:border-box;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline:none;
+    background: #e8491d;
+    color: #35424a
+} */
