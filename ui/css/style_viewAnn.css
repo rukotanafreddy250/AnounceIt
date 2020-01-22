@@ -33,3 +33,14 @@
     background: #e8491d;
     color: #35424a
 }
+.btn_crt_ann{
+height: 59px;
+    width:250px;
+    background: #e8491d;
+    border:0;
+    padding: 0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#fff;
+    font-size:20px;
+}
