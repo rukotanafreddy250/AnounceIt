@@ -86,3 +86,33 @@ section{
     background: #e8491d;
     color: #35424a
 } */
+@media(max-width:768px){
+    header #branding,
+    header nav ,
+    header nav li,
+    #newsletter h1,
+    #newletter form {
+        float: none;
+        text-align: center;
+        width:100%;
+        /* margin-bottom: 30px; */
+    }
+    header{
+        padding-bottom:20px;
+    }
+    #showcase{
+        margin-top: 40px;
+    }
+    /* #newsletter .button_1{
+        display: block;
+        width:181px;
+    }
+    #newletter form input[type="email"]{
+        width:238px;
+    } */
+    .container_login{
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+}

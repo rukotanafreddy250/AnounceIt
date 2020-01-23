@@ -44,15 +44,15 @@
     color:#fff;
     font-size:20px; 
 }
-.view{
+.delete{
     height: 59px;
     width:355px;
-    background:white;
+    background:red;
     border:0;
     padding: 0;
     padding-left:40px;
     padding-right:40px;
-    color:black;
+    color:white;
     font-size:20px;
     }
 .btn_option{
@@ -104,40 +104,62 @@ footer{
     font-size:20px; 
     margin-left: 255px;
 }
-@media(max-width:768px){
-    header #branding,
-    header nav ,
-    header nav li,
-    #newsletter h1,
-    #newletter form {
-        float: none;
-        text-align: center;
-        width:100%;
-        /* margin-bottom: 30px; */
+.view{
+    height: 59px;
+    width:355px;
+    background:white;
+    border:0;
+    padding: 0;
+    padding-left:40px;
+    padding-right:40px;
+    color:black;
+    font-size:20px;
     }
-    header{
-        padding-bottom:20px;
+    footer{
+        padding:20px;
+        margin-top:0px;
+        color:#ffffff;
+        background-color:#e8491d;
+        text-align:center;
+        /* width: 100%; */
+        position: relative;
+        left: 0px;
+        bottom: 0px;
     }
-    #showcase{
-        margin-top: 40px;
+    @media(max-width:768px){
+        header #branding,
+        header nav ,
+        header nav li,
+        #newsletter h1,
+        #newletter form {
+            float: none;
+            text-align: center;
+            width:100%;
+            /* margin-bottom: 30px; */
+        }
+        header{
+            padding-bottom:20px;
+        }
+        #showcase{
+            margin-top: 40px;
+        }
+        /* #newsletter .button_1{
+            display: block;
+            width:181px;
+        }
+        #newletter form input[type="email"]{
+            width:238px;
+        } */
+        .container_login{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .btn_crtAnn{
+            width: 100%;
+        }
+        .submit {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+        }
     }
-    /* #newsletter .button_1{
-        display: block;
-        width:181px;
-    }
-    #newletter form input[type="email"]{
-        width:238px;
-    } */
-    .container_login{
-        margin-top: 100px;
-        width: 100%;
-    }
-    .btn_crtAnn{
-        width: 100%;
-    }
-    .submit {
-        box-sizing: border-box;
-        width: 100%;
-        display: flex;
-    }
-}
